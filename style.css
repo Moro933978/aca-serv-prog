@@ -40,6 +40,7 @@ img{
 
 .feet{
     background-color: #ebebeb;
+    background: linear-gradient(45deg,#232526 , #414345);
     width: 100%;
     max-width: 320px;
     padding: 38px;
@@ -70,20 +71,6 @@ img{
     -o-transform: translateY(-18px);
 }
 
-.feet::after{
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    background-color: var(--prymary-color);
-    padding: 1.5px;
-    width: 320px;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-}
 p{
     font-size: 21px;
 }
